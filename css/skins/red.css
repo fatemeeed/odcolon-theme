@@ -1,0 +1,31 @@
+.header,
+.home,.testimonial::before,.footer{
+    background-color: #d70d25;
+}
+
+
+.home .home-btn,
+.features .feature-item svg,
+.testimonial-item .user-info .user-name h6,
+.contact .contact-item svg,
+.contact .contact-item .contact-info,
+.footer ul li:hover svg,
+.newsletter form button:hover {
+    color: #d70d25;
+}
+
+.title h6,
+.features-item:hover,
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev,
+.newsletter::before,
+.newsletter form button,
+.contact form button{
+    background-color: #d70d25;
+    color: #fff;
+
+}
+.newsletter form button{
+
+    border: 2px solid #d70d25;
+}

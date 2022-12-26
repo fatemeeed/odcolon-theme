@@ -1,0 +1,51 @@
+$(document).ready(function () {
+    $('#product-carousel').owlCarousel({
+        items:4,
+        nav:true,
+        autoplay:true,
+        loop:true,
+        rtl:true,
+        margine:10,
+        smartSpeed:1000,
+        responsive:{
+          0:{
+            items:1
+          },
+          600:{
+            items:2
+          },
+          762:{
+            items:3
+          },
+          992:{
+            items:4
+          }
+        }
+      });
+
+      $('#testimonial-carousel').owlCarousel({
+        items:2,
+        nav:true,
+        autoplay:true,
+        loop:true,
+        rtl:true,
+        margine:10,
+        smartSpeed:1000,
+        responsive:{
+          0:{
+            items:1
+          },
+          600:{
+            items:1
+          },
+          762:{
+            items:2
+          },
+          992:{
+            items:2
+          }
+        }
+      });
+
+      $('body').scrollspy({ target: '.navbar-nav' });
+  });
